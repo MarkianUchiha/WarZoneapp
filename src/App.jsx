@@ -67,7 +67,7 @@ function App() {
       {/* Sección de créditos o información adicional */}
       <footer className="mt-auto pt-16 text-gray-500 text-sm text-center">
         <p>&copy; 2025 Military Soundboard App. Designed with React & Tailwind CSS.</p>
-        <p>Sounds from various public domain sources. For training purposes only.</p>
+        <p>Este proyecto esta desarrollado por MarkiDev.</p>
       </footer>
     </div>
   );

@@ -26,6 +26,7 @@ npm run build
 - 3 Categorias
 - 15 Sonidos
 - Navegación por Categorias
+- Se pueden agregar sonidos personalizados
 
 ## Tecnologías Utilizadas
 
