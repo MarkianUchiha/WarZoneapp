@@ -34,7 +34,7 @@ export const soundsData = [
     id: 'alpha-5',
     name: 'Gemido Chino',
     category: 'Alpha',
-    file: '/sonidos/alfa/claxon.mp3',
+    file: '/sonidos/alfa/yamete-kudasai.mp3',
     image: null,
   },
 
@@ -43,21 +43,21 @@ export const soundsData = [
     id: 'bravo-1',
     name: 'Gemido Anime',
     category: 'Bravo',
-    file: '/public/sonidos/bravo/anime-ahh.mp3',
+    file: '/sonidos/bravo/anime-ahh.mp3',
     image: null,
   },
   {
     id: 'bravo-2',
     name: 'Aplausos',
     category: 'Bravo',
-    file: '/public/sonidos/bravo/aplausos_3.mp3',
+    file: '/sonidos/bravo/aplausos_3.mp3',
     image: null,
   },
   {
     id: 'bravo-3',
     name: 'Gay',
     category: 'Bravo',
-    file: '/public/sonidos/bravo/gay.mp3',
+    file: '/sonidos/bravo/gay.mp3',
     image: null,
   },
   {

@@ -42,7 +42,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-950 to-gray-800 text-white font-mono flex flex-col items-center py-8 px-4">
       <h1 className="text-6xl md:text-7xl font-extrabold mb-12 text-green-500 drop-shadow-lg text-center">
-        MILITARY SOUNDBOARD
+        WarZone App
       </h1>
 
       <CategoryNav
@@ -60,8 +60,8 @@ function App() {
       <UploadSound onSoundLoaded={handleUploadedSound} />
 
       <footer className="mt-auto pt-16 text-gray-500 text-sm text-center">
-        <p>&copy; 2025 Military Soundboard App. Designed with React & Tailwind CSS.</p>
-        <p>Sounds from various public domain sources. For training purposes only.</p>
+        <p>&copy; 2025 WarZone App. Sugerencias.</p>
+        <p>Creado por <a href="https://github.com/MarkiDev" className="text-green-500 hover:text-green-400">MarkiDev</a>. MarkiDev. Todos los derechos reservados.</p>
       </footer>
     </div>
   );
