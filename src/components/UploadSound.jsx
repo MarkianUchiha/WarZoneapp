@@ -21,7 +21,7 @@ const UploadSound = ({ onSoundLoaded }) => {
           onSoundLoaded({
             id: `uploaded-${Date.now()}`, // ID único basado en el tiempo
             name: file.name.split('.').slice(0, -1).join('.'), // Nombre sin extensión
-            category: 'Uploaded', // Una nueva categoría para sonidos subidos
+            category: 'Tus sonidos', // Una nueva categoría para sonidos subidos
             file: url,
             image: null,
           });
@@ -39,7 +39,7 @@ const UploadSound = ({ onSoundLoaded }) => {
 
   return (
     <div className="w-full max-w-lg bg-gray-800 p-6 rounded-lg shadow-xl border-2 border-green-700 flex flex-col items-center gap-4">
-      <h2 className="text-3xl font-bold text-green-400 mb-2 text-center">Upload Your Own Sound</h2>
+      <h2 className="text-3xl font-bold text-green-400 mb-2 text-center">Sube sonidos personalizados</h2>
 
       <input
         type="file"
@@ -57,7 +57,7 @@ const UploadSound = ({ onSoundLoaded }) => {
 
       {uploadedSoundURL && (
         <div className="flex flex-col items-center gap-3 w-full">
-          <h3 className="text-xl font-bold text-green-300">Preview: {uploadedSoundName}</h3>
+          <h3 className="text-xl font-bold text-green-300">Vista Previa: {uploadedSoundName}</h3>
           <audio controls src={uploadedSoundURL} className="w-full max-w-xs md:max-w-md"></audio>
         </div>
       )}

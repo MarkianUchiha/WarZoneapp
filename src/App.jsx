@@ -61,7 +61,7 @@ function App() {
 
       <footer className="mt-auto pt-16 text-gray-500 text-sm text-center">
         <p>&copy; 2025 WarZone App. Sugerencias.</p>
-        <p>Creado por <a href="https://github.com/MarkiDev" className="text-green-500 hover:text-green-400">MarkiDev</a>. MarkiDev. Todos los derechos reservados.</p>
+        <p>Creado por <a href="https://github.com/MarkiDev" className="text-green-500 hover:text-green-400">MarkiDev</a>.Todos los derechos reservados.</p>
       </footer>
     </div>
   );
